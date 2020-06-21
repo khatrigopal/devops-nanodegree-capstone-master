@@ -1,5 +1,5 @@
 # Devops-nanodegree-capstone
-Capstone project for the Udacity cloud devops nanodegree
+Capstone project for the Udacity cloud devops nanodegree-by Gaurav Sharma
 
 ## Using Amazon EKS and Ansible
 I opted to use Amazon's managed kubernetes as a service offering. 
@@ -14,7 +14,7 @@ These tasks, besides installing and configuring Jenkins include:
 - installing ansible and its python dependencies
 - adding my jenkins user to sudoers to make it easy to run the ansible playbooks without configuring a build agent (not the best idea, but it works :)
 
-## Illustrating the rolling update
+## Explaination of the rolling update
 I have not included screenshots of the site before/after the rolling update  , later on i realize
 screenshots were inadequate to illustrate what was actually happening on the kubernetes pods during the update.
 
