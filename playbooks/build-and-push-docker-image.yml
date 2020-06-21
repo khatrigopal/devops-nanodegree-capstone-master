@@ -19,6 +19,7 @@
       docker_login:
         username: "gaurav0o7"
         password: Home@123
+        email: gaurav181187@gmail.com
         config_path: "{{ lookup('env', 'HOME') }}/.docker/config.json"
         reauthorize: yes
     - name: Build Image
