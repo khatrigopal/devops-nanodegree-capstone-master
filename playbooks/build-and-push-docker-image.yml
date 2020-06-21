@@ -28,7 +28,7 @@
           path: ../src
           pull: yes
         name: gaurav0o7/devops-image
-        tag: "{{ latest }}"
+        tag: "latest"
         force_tag: yes
         source: build
         force_source: yes
