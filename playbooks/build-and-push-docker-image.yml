@@ -17,8 +17,9 @@
   tasks:
     - name: Login to docker hub
       docker_login:
-        username: "gaurav181187@gmail.com"
-        password: Home@123
+        username: "gaurav0o7"
+        password: Home@1234
+        email: gaurav181187@gmail.com
         config_path: "{{ lookup('env', 'HOME') }}/.docker/config.json"
         reauthorize: yes
     - name: Build Image
