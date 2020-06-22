@@ -17,7 +17,7 @@
   tasks:
     - name: Login to docker hub
       docker_login:
-        username: "khatrig"
+        username: khatrig
         password: Khatrig777*
         email: khatri.gopal@gmail.com
         
