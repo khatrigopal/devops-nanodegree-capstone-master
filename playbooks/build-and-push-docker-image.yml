@@ -21,7 +21,7 @@
         password: Khatrig777*
         email: khatri.gopal@gmail.com
         
-        reauthorize: yes
+        reauthorize: no
     - name: Build Image
       docker_image:
         build:
