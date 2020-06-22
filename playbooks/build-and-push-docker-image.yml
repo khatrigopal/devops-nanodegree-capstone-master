@@ -27,10 +27,10 @@
         build:
           path: ../src
           pull: yes
-        name: gaurav0o7/devops-image
+        name: khatrig/devops-image
         tag: "latest"
         force_tag: yes
         source: build
         force_source: yes
     - name: Push Image
-      command: docker push gaurav0o7/devops-image
+      command: docker push khatrig/devops-image
