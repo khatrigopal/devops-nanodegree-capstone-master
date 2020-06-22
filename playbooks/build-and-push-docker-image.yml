@@ -27,6 +27,6 @@
           path: ../src
           name: khatrig/devops-image
           tag: latest
-          state: build
+          state: present
     - name: Push Image
       command: docker push khatrig/devops-image
