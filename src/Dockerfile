@@ -1,6 +1,6 @@
 FROM php:7.3-apache
 
-LABEL maintainer="Gaurav Sharma"
+LABEL maintainer="Gopal Khatri"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
