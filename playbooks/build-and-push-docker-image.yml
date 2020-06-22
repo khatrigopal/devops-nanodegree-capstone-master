@@ -29,4 +29,4 @@
           tag: latest
           state: build
     - name: Push Image
-      command: docker push khatrig/devops-image
+      command: docker push khatrig/devops-image:latest
