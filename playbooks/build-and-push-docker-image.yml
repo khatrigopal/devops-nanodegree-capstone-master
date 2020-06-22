@@ -11,7 +11,7 @@
         name: python-pip
     - name: Ensure python package dependencies are installed
       pip:
-        state: present
+        state: build
         name: docker
 
   tasks:
