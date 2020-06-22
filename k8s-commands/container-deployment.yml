@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: devops-capstone
-          image: gaurav0o7/devops-image:latest
+          image: khatrig/devops-image:latest
           ports:
             - containerPort: 8
