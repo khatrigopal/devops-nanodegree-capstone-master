@@ -17,7 +17,7 @@
   tasks:
     - name: Create Docker Container
       docker_container:
-        image: "gaurav0o7/devops-image:latest"
+        image: "khatrig/devops-image:latest"
         name: devops-container
         detach: yes
         recreate: yes
