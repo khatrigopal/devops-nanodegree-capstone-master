@@ -24,13 +24,9 @@
         reauthorize: no
     - name: Build Image
       docker_image:
-        build:
           path: ../src
-          pull: yes
-        name: khatrig/devops-image
-        tag: "latest"
-        force_tag: yes
-        source: build
-        force_source: yes
+          name: khatrig/devops-image
+          tag: latest
+          state: build
     - name: Push Image
       command: docker push khatrig/devops-image
